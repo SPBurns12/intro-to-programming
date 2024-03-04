@@ -21,3 +21,8 @@ app.MapGet("/status", () =>
 });
 
 app.Run();
+
+public partial class Program
+{
+
+}
