@@ -1,0 +1,434 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "nXGvh_AvwI-D1FKzlmpLE",
+      "type": "rectangle",
+      "x": 459,
+      "y": 228,
+      "width": 283,
+      "height": 105,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffc9c9",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 907467800,
+      "version": 44,
+      "versionNonce": 1665007128,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "IyNB6B1pi2Mqel2jCrmWK"
+        },
+        {
+          "id": "yqL3DCfmH5YxmVuSU76fJ",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1709672719256,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "IyNB6B1pi2Mqel2jCrmWK",
+      "type": "text",
+      "x": 582.5600128173828,
+      "y": 268,
+      "width": 35.879974365234375,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 202610968,
+      "version": 20,
+      "versionNonce": 201751320,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1709672719256,
+      "link": null,
+      "locked": false,
+      "text": "Red",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "baseline": 18,
+      "containerId": "nXGvh_AvwI-D1FKzlmpLE",
+      "originalText": "Red",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "T0klKm4xvnZib6DUTRyk6",
+      "type": "rectangle",
+      "x": 692,
+      "y": 448,
+      "width": 283,
+      "height": 105,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 159695720,
+      "version": 58,
+      "versionNonce": 88380696,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "QOED2VLQtqzkzKxgWXVZ8"
+        },
+        {
+          "id": "yqL3DCfmH5YxmVuSU76fJ",
+          "type": "arrow"
+        },
+        {
+          "id": "NI7ZnRETqND45iA8jE4EY",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1709672719256,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "QOED2VLQtqzkzKxgWXVZ8",
+      "type": "text",
+      "x": 805.7000198364258,
+      "y": 488,
+      "width": 55.59996032714844,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 233313896,
+      "version": 38,
+      "versionNonce": 2132947480,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1709672719256,
+      "link": null,
+      "locked": false,
+      "text": "Green",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "baseline": 18,
+      "containerId": "T0klKm4xvnZib6DUTRyk6",
+      "originalText": "Green",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "lVSckzHP06zfmoJaCq-63",
+      "type": "rectangle",
+      "x": 216,
+      "y": 448,
+      "width": 283,
+      "height": 105,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1242819432,
+      "version": 66,
+      "versionNonce": 1772439832,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "7ke8nxkvNMT4vKGcJ2u0s"
+        },
+        {
+          "id": "EK5tsvpZu6Z6CvAXJ9FZl",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1709672719256,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "7ke8nxkvNMT4vKGcJ2u0s",
+      "type": "text",
+      "x": 313.2100372314453,
+      "y": 488,
+      "width": 88.57992553710938,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 37499752,
+      "version": 56,
+      "versionNonce": 2102158872,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1709672719256,
+      "link": null,
+      "locked": false,
+      "text": "Refactor",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "baseline": 18,
+      "containerId": "lVSckzHP06zfmoJaCq-63",
+      "originalText": "Refactor",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "yqL3DCfmH5YxmVuSU76fJ",
+      "type": "arrow",
+      "x": 742,
+      "y": 273,
+      "width": 95,
+      "height": 174,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 806261272,
+      "version": 79,
+      "versionNonce": 141293928,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1709672719489,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          81,
+          67
+        ],
+        [
+          95,
+          174
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "nXGvh_AvwI-D1FKzlmpLE",
+        "focus": -0.7345809364304958,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "T0klKm4xvnZib6DUTRyk6",
+        "focus": 0.07076942458505243,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "NI7ZnRETqND45iA8jE4EY",
+      "type": "arrow",
+      "x": 849,
+      "y": 557,
+      "width": 499,
+      "height": 73,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1092786712,
+      "version": 89,
+      "versionNonce": 1450740840,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1709672719489,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -250,
+          68
+        ],
+        [
+          -499,
+          -5
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "T0klKm4xvnZib6DUTRyk6",
+        "focus": -0.667296786389414,
+        "gap": 4
+      },
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "EK5tsvpZu6Z6CvAXJ9FZl",
+      "type": "arrow",
+      "x": 355,
+      "y": 445,
+      "width": 105,
+      "height": 168,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1770176616,
+      "version": 69,
+      "versionNonce": 2071641960,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1709672719489,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          23,
+          -100
+        ],
+        [
+          105,
+          -168
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "lVSckzHP06zfmoJaCq-63",
+        "focus": -0.09939768842585055,
+        "gap": 3
+      },
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "esEgkY0RqfHj2usLDKT41",
+      "type": "text",
+      "x": 1019,
+      "y": 260,
+      "width": 628.53955078125,
+      "height": 125,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 834839576,
+      "version": 290,
+      "versionNonce": 306171928,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1709672781328,
+      "link": null,
+      "locked": false,
+      "text": "1. Always start with a meaningfully failing test.\n    - \"meaningful\" means it fails on the assert statement.\n2. Write just enouogh code to make that test pass.\n3. Refactor - make it cleaner, better, better names, whatever,\n   but add no new functionality without a new test.",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 118,
+      "containerId": null,
+      "originalText": "1. Always start with a meaningfully failing test.\n    - \"meaningful\" means it fails on the assert statement.\n2. Write just enouogh code to make that test pass.\n3. Refactor - make it cleaner, better, better names, whatever,\n   but add no new functionality without a new test.",
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
