@@ -1,9 +1,12 @@
 ﻿namespace Bank;
 
+public enum AccountType { Standard, Gold }
+
 public class BankAccount
 {
     private decimal _currentBalance = 5000M;
-    public void Deposit(decimal amountToDeposit)
+
+    public virtual void Deposit(decimal amountToDeposit)
     {
         // Never type Private, always refactor to it.
         GuardTransactionAmount(amountToDeposit);
