@@ -12,7 +12,7 @@ public class MakingWithdrawls
     [InlineData(4453)]
     public void MakingAWithdrawlDecreasesTheBalance(decimal amountToWithdraw)
     {
-        var account = new BankAccount();
+        var account = new BankAccount(new DummyBonusCalculator());
         var openingBalance = account.GetBalance();
 
         account.Withdraw(amountToWithdraw);
@@ -23,7 +23,7 @@ public class MakingWithdrawls
     [Fact]
     public void OverdraftNotAllowed()
     {
-        var account = new BankAccount();
+        var account = new BankAccount(new DummyBonusCalculator());
         var openingBalance = account.GetBalance();
 
         Assert.Throws<OverdraftException>(() => account.Withdraw(openingBalance + 1));
@@ -35,7 +35,7 @@ public class MakingWithdrawls
     [InlineData(0)]
     public void ValidateAmountsForWithdrawl(decimal amount)
     {
-        var account = new BankAccount();
+        var account = new BankAccount(new DummyBonusCalculator());
         var openingBalance = account.GetBalance();
 
         Assert.Throws<InvalidTransactionAmountException>(() => account.Withdraw(amount));
@@ -45,7 +45,7 @@ public class MakingWithdrawls
     [Fact]
     public void CanWithdrawAllMoney()
     {
-        var account = new BankAccount();
+        var account = new BankAccount(new DummyBonusCalculator());
         var openingBalance = account.GetBalance();
 
         account.Withdraw(openingBalance);

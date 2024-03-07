@@ -2,12 +2,20 @@
 
 public class BankAccount
 {
+    private ICalculateBonusesForDeposits _bonusCalculator;
     private decimal _currentBalance = 5000M;
+
+    public BankAccount(ICalculateBonusesForDeposits bonusCalculator)
+    {
+        _bonusCalculator = bonusCalculator;
+    }
+
     public void Deposit(decimal amountToDeposit)
     {
         // Never type Private, always refactor to it.
         GuardTransactionAmount(amountToDeposit);
-        _currentBalance += amountToDeposit;
+        var bonus = _bonusCalculator.CalculateBonus(_currentBalance, amountToDeposit);
+        _currentBalance += amountToDeposit + bonus;
     }
 
     private static void GuardTransactionAmount(decimal transactionAmount)

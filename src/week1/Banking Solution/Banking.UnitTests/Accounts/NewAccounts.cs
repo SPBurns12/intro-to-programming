@@ -10,7 +10,7 @@ public class NewAccounts
         // WTCYWYH - write the code you wish you had
 
         // Given
-        var account = new BankAccount();
+        var account = new BankAccount(new DummyBonusCalculator());
 
         // When
         decimal openingBalance = account.GetBalance();
