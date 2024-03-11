@@ -11,8 +11,8 @@ module.exports = {
     require('@tailwindcss/typography'),
     require('daisyui')
   ],
-  daisy: {
-    themes: ['dracula'],
-  }
+  daisyui: {
+    themes: ['synthwave'],
+  },
 }
 
