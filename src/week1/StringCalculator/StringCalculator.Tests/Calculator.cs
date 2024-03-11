@@ -1,5 +1,4 @@
 ﻿
-
 namespace StringCalculator.Tests;
 public class Calculator
 {

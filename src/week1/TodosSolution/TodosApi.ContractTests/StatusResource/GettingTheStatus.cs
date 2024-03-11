@@ -1,4 +1,5 @@
-﻿using Alba;
+﻿
+using Alba;
 
 namespace TodosApi.ContractTests.StatusResource;
 public class GettingTheStatus

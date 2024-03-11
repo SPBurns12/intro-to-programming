@@ -9,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<IFormatDisplayInformation, AdvancedFormatters>();
 var connectionString = builder.Configuration.GetConnectionString("todos") ??
     throw new Exception("Can't start, need a connection string");
 
@@ -27,26 +28,30 @@ if (app.Environment.IsDevelopment())
 }
 
 // GET /status
-app.MapGet("/status", () =>
+app.MapGet("/status", ([FromServices] IFormatDisplayInformation utils) =>
 {
-    return Results.Ok();
+    // the status the server, the name of the support tech, and a support phone number.
+
+    var response = new StatusResponse
+    {
+        CheckedAt = DateTimeOffset.Now,
+        Message = "Looks Good",
+        SupportTech = utils.FormatName("Bob", "Smith")
+    };
+    return Results.Ok(response);
 });
 
-app.MapPost("/todos", async ([FromBody] TodoCreateRequest request, [FromServices] IDocumentSession session) =>
+app.MapPost("/todos", async ([FromBody] TodoCreateRequest request,
+    [FromServices] IDocumentSession session) =>
 {
-    // look at the content they sent and validate it
-    // if not valid, send them a 400 response
-    // if valid, assign an ID to it, save it somewhere, send it back to them
-
-    // fake it
     var response = new TodoCreateResponse
     {
         Id = Guid.NewGuid(),
-        Description = request.Description,
+        Description = request.What,
         Status = TodoStatus.Incomplete
     };
     session.Store(response);
-    await session.SaveChangesAsync(); // actually write it to the database
+    await session.SaveChangesAsync(); // actually write it to the database.
     return Results.Ok(response);
 });
 
@@ -55,11 +60,8 @@ app.MapGet("/todos", async ([FromServices] IDocumentSession session) =>
     var todoList = await session.Query<TodoCreateResponse>().ToListAsync();
     return Results.Ok(todoList);
 });
+// "Routing Table"
+app.Run(); // This starts the server and it blocks. It just listens for requests.
+public partial class Program { }
 
-app.Run();
-
-public partial class Program
-{
-
-}
 

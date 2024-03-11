@@ -1,20 +1,24 @@
 @TodosApi_HostAddress = http://localhost:1337
 
 
-GET {{TodosApi_HostAddress}}/status/
+GET {{TodosApi_HostAddress}}/status
 Accept: application/json
 
-###
+
+
+### 
 
 POST {{TodosApi_HostAddress}}/todos
 Accept: application/json
 Content-Type: application/json
- 
+
 {
-    "description": "Clean Garage"
+    "description": "fix this"
 }
+
 
 ###
 
 GET {{TodosApi_HostAddress}}/todos
 Accept: application/json
+
