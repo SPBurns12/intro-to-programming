@@ -1,0 +1,15 @@
+@Bff.Api_HostAddress = http://localhost:1337
+
+GET {{Bff.Api_HostAddress}}/status
+Accept: application/json
+
+###
+
+POST {{Bff.Api_HostAddress}}/todos
+Content-Type: application/json
+
+{
+  "description": "Buy Beer",
+  "priority": 1,
+  "dueDate": "2024-03-13T16:34:36.734Z"
+}
