@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { CountByValues, CounterAction } from '../counter/state/action';
+import { CountByValues, CounterActions } from '../counter/state/actions';
 import { counterFeature } from '../counter/state';
 
 @Component({
@@ -38,6 +38,6 @@ export class PrefsComponent {
   constructor(private store: Store) {}
   by = this.store.selectSignal(counterFeature.selectBy);
   setCountBy(payload: CountByValues) {
-    this.store.dispatch(CounterAction.countByChanged({ payload }));
+    this.store.dispatch(CounterActions.countByChanged({ payload }));
   }
 }
