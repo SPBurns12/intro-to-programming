@@ -12,6 +12,7 @@ builder.Services.AddSwaggerGen();
 var connectionString = builder.Configuration.GetConnectionString("todos") ??
     throw new Exception("Can't start, need a connection string");
 
+
 builder.Services.AddDbContext<TodosDataContext>(options =>
 {
     options.UseNpgsql(connectionString);
