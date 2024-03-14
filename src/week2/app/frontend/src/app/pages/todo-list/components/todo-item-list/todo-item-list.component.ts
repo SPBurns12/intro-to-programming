@@ -8,6 +8,7 @@ import { NgClass } from '@angular/common';
   imports: [NgClass],
   template: `
     @if(list().length === 0) {
+    <!-- <app-alert-information message="You Have Nothing On Your Todo List! Party!" /> -->
     <div role="alert" class="alert alert-info">
       <svg
         xmlns="http://www.w3.org/2000/svg"

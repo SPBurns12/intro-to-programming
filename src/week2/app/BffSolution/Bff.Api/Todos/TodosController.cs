@@ -10,6 +10,7 @@ public class TodosController(TodosDataContext _context) : ControllerBase
     [HttpGet("/todos")]
     public async Task<ActionResult<GetTodoListResponse>> GetAllTodosAsync()
     {
+        await Task.Delay(3000); // Don't do this.
         var list = await _context.Todos
             .OrderBy(t => t.CreatedDate)
             .Select(t => new CreateTodoResponse
