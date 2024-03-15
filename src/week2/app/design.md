@@ -4,14 +4,17 @@
 
 GET /todos
 
+
 200 Ok
 
 {
     "list": [
         {
-
+            
         }
+
     ]
+
 }
 
 ## Add an Item to the Todo List
@@ -24,15 +27,15 @@ POST /todos
     "priority": "High" | "Low" | undefined
 }
 
+
 200
 
 {
-    "id": "789645",
-    "dueDate": "120532",
+    "id": "38938938",
+    "dueDate": "893893",
     "description": "Buy Beer",
     "priority": "Low"
 }
-
 ## Mark an Item as Complete
 
 ## Mark an Item as Incomplete
