@@ -2,6 +2,8 @@
 
 March 4 2024 - March 15 2024
 
+Codebase is based on https://github.com/hypertheory-training/intro-to-programming-march-2024
+
 Added this stuff through the Github UI.
 
 ## `src` Directory
